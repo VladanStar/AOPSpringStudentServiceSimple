@@ -1,5 +1,8 @@
 package com.vladancupric;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Student {
 	private int godiste;
 	private String ime;
